@@ -31,7 +31,7 @@ console.log(mergedObject3.hobbies);//this also works
 ///////////////////////////////////////////////////////////////
 //////////////        constraints   ///////////////////////
 ///////////////////////////////////////////////////////////////
-function mergeThis<T, U>(objA: T, objB: U) {
+function mergeThisToo<T, U>(objA: T, objB: U) {
     return Object.assign(objA, objB);
   }
   
